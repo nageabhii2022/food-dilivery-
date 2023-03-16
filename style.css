@@ -1,0 +1,265 @@
+/* css reseet */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* css variable */
+:root{
+    --navbar-hight:59px;
+}
+/* navigation bar */
+
+
+
+/* logo and image nav*/
+
+#logo{
+    margin: 13px 12px;
+
+}
+#logo img{
+    height: 87px;
+    margin: 3px 6px;
+
+}
+
+ /* list and style nav */
+ #navbar{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    color: rgba(250, 235, 215, 0.852);
+    
+}
+    
+ #navbar ::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.122);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+ }
+
+     
+    
+
+#navbar ul{
+
+    display: flex;
+    font-family: 'Baloo 2', cursive;
+    
+
+
+ }
+
+ 
+ 
+
+ #navbar ul li{
+   
+    color: blanchedalmond;
+    list-style: none;
+    font-size: 1.3rem;
+ }
+
+ 
+ #navbar ul li a{
+    color: azure;
+    display: block;
+    padding: 5px 8px;
+    text-decoration: none;
+    
+ }
+ 
+ #navbar ul li a:hover{
+    background-color: beige;
+    color: black;
+    
+ }
+ /* home */
+ #Home{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 200px;
+    height: 368px;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ #Home::before{
+    content: "";
+    background:url(/assets/bgc2.jpg.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 77%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    
+   
+ }
+ #Home h1{
+    color: #d2c404d7;
+    text-align: center;
+    height: 100px;
+    font-family: 'Bitter', serif;
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Saira Extra Condensed', sans-serif;
+ }
+ 
+ #Home p{
+    color:white;
+    text-align: center;
+    height: 100px;
+    font-size: larger;
+    font-family: 'Lora', serif;
+
+ }
+  /* services section */
+  #Services{
+    display: flex;
+  }
+
+  
+  .box{
+    
+
+    
+    
+    border: 2px solid red;
+    margin: 3px 6px;
+    padding: 34px; 
+    height: 200px;
+    width: 500px;
+    border-radius: 23px;
+    background-color: rgb(224, 218, 218);
+    
+    
+    
+
+  }
+ .box img{
+    
+  
+    height: 100px;
+    display: block;
+    margin: auto;
+
+  }
+  /* client section */
+  #client-section{
+    height: 533px;
+    position: relative;
+   
+
+
+
+  }
+  #client-section::before{
+    content: "";
+    position:absolute;
+    background-image: url(/assets/pexels-photo-1435907.jpeg);
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+
+  }
+  #clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .client-item{
+    padding: 54px ;
+  }
+
+  #clients img{
+    height: 152px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  /* contact section  */
+  #contact{
+    
+    position: relative;
+
+  }
+  #contact::before{
+    content: "";
+    position:absolute;
+    background-image: url(/assets/pexels-torsten-dettlaff-193003.jpg);
+    padding: 1px; ;
+    
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+
+  }
+
+  #contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact-box input,
+  #contact-box textarea{
+    width: 100%;
+    padding: 0,5rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+  }
+  #contact-box form{
+    width: 40%;
+  }
+  #contact-box label{
+    font-size: 1.3rem;
+  }
+  
+
+  
+  /* footer */
+  footer{
+    background: black;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+  }
+ 
+
+ /* utility class */
+ .h-primary{
+    font-size: 3.5rem;
+    padding: 12px;
+    text-align: center;
+    
+ }
+ .h-secondary{
+    font-size: 2.5rem;
+    padding: 12px;
+    text-align: center;
+    
+ }
+ .btn{
+    padding: 6px 22px;
+    border: 2px solid whitesmoke;
+    background-color: goldenrod;
+    color: whitesmoke;
+    margin: 17px ;
+    font-size: larger;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ 
